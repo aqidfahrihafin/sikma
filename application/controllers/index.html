@@ -1,0 +1,26 @@
+public function index()
+
+{
+if ($this->session->userdata('level') != 'Akademik') {
+$this->session->set_flashdata('error', 'Anda tidak memiliki akses ke halaman ini.');
+$this->session->set_flashdata('error_timeout', 4000);
+redirect('login');
+} else {
+
+$data['title'] = "Dashboard";
+
+$data['tbl_instansi'] = $this->M_data->get_data('tbl_instansi')->result();
+$this->db->where('fakultas', 'teknik');
+$data['pending'] = $this->db->count_all_results('tbl_prodi');
+$this->db->where('fakultas', 'mipa');
+$data['diterima'] = $this->db->count_all_results('tbl_prodi');
+$this->db->where('fakultas', 'mipa');
+$data['ditolak'] = $this->db->count_all_results('tbl_prodi');
+
+$data['user'] = $this->db->count_all_results('tbl_user');
+
+$this->load->view('backend/akademik/template/v_header',$data);
+$this->load->view('backend/akademik/dashboard/index', $data);
+$this->load->view('backend/akademik/template/v_footer');
+}
+}
