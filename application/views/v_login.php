@@ -23,7 +23,7 @@
 				<div class="news-caption">
 					<h4 class="caption-title"><b>SIKMA</b> Annuqayah</h4>
 					<p>
-						Sistem Informasi aktifitas mahasiswa Institut Sains dan Teknologi Annuqayah Guluk-guluk Sumenep.
+						Sistem Informasi aktifitas mahasiswa Institut Sains dan Teknologi Annuqayah Guluk-guluk Sumenep Madura.
 					</p>
 				</div>
 			</div>
