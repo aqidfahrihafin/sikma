@@ -1,9 +1,9 @@
 ###################
-What is Sikma
+Apa Itu Sikma
 ###################
 
-Tentang Sikma Annuqayah
-Sikma Adalah sebuah sistem informasi aktifitas mahasiswa (SIKMA) yang di kembangkan oleh team it institut sains dan teknologi annuqayah untuk mempermudah dalam segala proses yang berkaitan dengan aktivitas mahasiswa selama masa studi.
+
+Sikma AnnuqayahAdalah sebuah sistem informasi aktifitas mahasiswa (SIKMA) yang di kembangkan oleh team it institut sains dan teknologi annuqayah untuk mempermudah dalam segala proses yang berkaitan dengan aktivitas mahasiswa selama masa studi.
 
 
 *******************
